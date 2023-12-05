@@ -29,7 +29,7 @@ X, y = make_blobs(n_samples, n_features)
 # performing KMeans clustering
 
 ret =  KMeans(n_clusters = n_clusters).fit_predict(X)
-print ret
+print (ret)
 
 __, ax = plt.subplots(2)
 ax[0].scatter(X[:,0], X[:,1])
